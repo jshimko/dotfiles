@@ -1,12 +1,12 @@
-# Paul's dotfiles.
+# Jeremy's dotfiles.
 
 [mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. go read it.
 
-This repo is mostly for me but you're welcome to make suggestions. Mathias's is the project to fork.  I'm mostly catching up to him, @cowboy, and @gf3.
+This repo is a fork of [Paul Irish's fork](https://github.com/paulirish/dotfiles) of [Mathias Bynens's dotfiles collection](https://github.com/mathiasbynens/dotfiles). 
 
 ## install the necessary apps
 
-My basic setup is captured in `install-deps.sh` which adds homebrew, z, nave, etc.
+Basic setup is captured in `install-deps.sh` which adds homebrew, z, nave, etc.
 
 ## private config
 
@@ -30,7 +30,7 @@ export PATH
 
 …is really important. even for these files.
 
-Install [Dotfiles Syntax Highlighting](https://github.com/mattbanks/dotfiles-syntax-highlighting-st2) via [Sublime Text 2 Package Control](http://wbond.net/sublime_packages/package_control)
+Install [Dotfiles Syntax Highlighting](https://github.com/mattbanks/dotfiles-syntax-highlighting-st2) via [Sublime Text Package Control](http://wbond.net/sublime_packages/package_control)
 
 
 ### Sensible OS X defaults
@@ -81,7 +81,7 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 ## Installation
 
 ```bash
-git clone https://github.com/paulirish/dotfiles.git && cd dotfiles && ./sync.sh
+git clone https://github.com/jshimko/dotfiles.git && cd dotfiles && ./sync.sh
 ```
 
 To update later on, just run the sync again.
