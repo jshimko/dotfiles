@@ -92,6 +92,9 @@ alias v="vim"
 alias pg="pg_ctl -D /usr/local/var/postgres"
 alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 
+# Update all globally installed npm modules
+alias npm-all="npm list -g --parseable --json 2>/dev/null | grep '^    "[a-z-]*": {' | sed 's/^ *"//;s/".*$//' | while read x; do sudo npm install -g $x; done"
+
 # File size
 alias fs="stat -f \"%z bytes\""
 
