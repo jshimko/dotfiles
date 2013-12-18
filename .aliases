@@ -37,7 +37,7 @@ alias l="ls -l ${colorflag}"
 alias la="ls -la ${colorflag}"
 
 # List only directories
-alias lsd='ls -l | grep "^d"'
+alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
 # Always use color output for `ls`
 if [[ "$OSTYPE" =~ ^darwin ]]; then
